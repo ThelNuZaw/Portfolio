@@ -207,10 +207,10 @@ h6 {
   .navmenu a,
   .navmenu a:focus {
     color: var(--nav-color);
-    font-size: 15px;
+    font-size: 18px;
     padding: 0 2px;
     font-family: var(--nav-font);
-    font-weight: 400;
+    font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -706,14 +706,18 @@ section,
 }
 
 .hero h2 {
-  margin: 0;
+  
   font-size: 64px;
   font-weight: 700;
+  margin-left: 180px
+ 
+  
 }
 
 .hero p {
-  margin: 5px 0 0 0;
-  font-size: 26px;
+  margin: 5px 0 0 180px;
+  font-size: 30px;
+  font-weight: 500;
 }
 
 .hero p span {
@@ -722,11 +726,11 @@ section,
 }
 
 .hero .social-links {
-  margin-top: 25px;
+  margin: 25px 0 0 180px;
 }
 
 .hero .social-links a {
-  background-color: color-mix(in srgb, var(--default-color), transparent 90%);
+  background-color: color-mix(in srgb, var(--background-color), transparent 30%);
   color: var(--default-color);
   font-size: 14px;
   width: 40px;
@@ -782,6 +786,15 @@ section,
   color: var(--accent-color);
   line-height: 0;
 }
+.prof-pic {
+  width: 500px;         /* or any size you prefer */
+  height: 500px;        /* same value as width for a perfect circle */
+  object-fit: cover;    /* keeps the subject centered & cropped */
+  border-radius: 50%;   /* the magic for a circle */
+  border: 1px solid #faf03c; /* optional border */
+  box-shadow: 0 0 5px rgba(0,0,0,0.2); /* optional shadow */
+}
+
 
 
 /*--------------------------------------------------------------
